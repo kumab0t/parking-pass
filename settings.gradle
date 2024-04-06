@@ -21,6 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Parking Pass"
 include ':app'
-include ':sdk'
+
 include ':opencv'
-project(':opencv').projectDir = new File(opencvsdk + '/sdk')
